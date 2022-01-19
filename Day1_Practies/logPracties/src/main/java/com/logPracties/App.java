@@ -14,8 +14,8 @@ public class App
     {
 		String message = "Hello World!";
 		LOG.debug(message + "will be printed on Debug");
-		LOG.info(message + "will be printed on Debug");
-		LOG.warn(message + "will be printed on Debug");
+		LOG.info(message + "will be printed on info");
+		LOG.warn(message + "will be printed on warn");
 		LOG.error(message + "will be printed on Debug");
 		LOG.fatal(message + "will be printed on Debug");
 		LOG.info( "Appache String {}." , message);
